@@ -12,3 +12,5 @@ spring:
       jdbc-url: jdbc:mysql://127.0.0.1:3306/dy_ds_demo_slave?serverTimezone=GMT%2B8&autoReconnect=true&allowMultiQueries=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
       username: root
       password: 123456
+mybatis-plus:
+  mapper-locations: /mappers/**.xml

@@ -27,6 +27,10 @@
             <artifactId>dynamic-datasource-spring-boot-starter</artifactId>
             <version>3.5.1</version>
         </dependency>-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
         <!-- mysql 驱动 -->
         <dependency>
             <groupId>mysql</groupId>
@@ -44,6 +48,10 @@
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
             <version>3.5.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
         </dependency>
     </dependencies>
 
